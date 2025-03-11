@@ -32,7 +32,7 @@ resource "aws_iam_role" "sc_launch_s3_product_role" {
 }
 
 resource "aws_iam_role_policy_attachment" "attach_policy_to_role" {
-  policy_arn = var.policy_arn
+  policy_arn = aws_iam_policy.s3_resource_creation_and_artifact_access_policy.arn  # Reference the created policy
   role       = aws_iam_role.sc_launch_s3_product_role.name
 }
 
