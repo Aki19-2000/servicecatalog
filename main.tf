@@ -23,6 +23,5 @@ module "service_catalog_product" {
   product_name        = "Simple S3 bucket1"
   owner_name          = "Akshaya"
   product_version     = "v1"
-  template_file_path  = "s3bucket.tar"
 }
 
