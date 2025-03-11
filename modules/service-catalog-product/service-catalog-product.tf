@@ -1,6 +1,6 @@
 resource "aws_servicecatalog_product" "simple_s3_bucket_product" {
   name          = var.product_name
-  owner         = var.owner_name
+  owner         = var.product_owner
   description   = "A simple S3 bucket product"
   product_type  = "EXTERNAL"
   provisioning_artifact {
