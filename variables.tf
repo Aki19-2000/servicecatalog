@@ -7,14 +7,14 @@ variable "aws_region" {
 variable "portfolio_name" {
   description = "The name of the service catalog portfolio"
   type        = string
-  default     = "S3 bucket1"
+  default     = "s3bucket1"
 }
 
 
 variable "product_name" {
   description = "Name of the service catalog product"
   type        = string
-  default     = "Simple S3 bucket1"
+  default     = "simples3bucket1"
 }
 
 variable "product_version" {
@@ -25,11 +25,11 @@ variable "product_version" {
 variable "owner_name" {
   description = "The name of the portfolio owner"
   type        = string
-  default     = "Akshaya"  # Set your default owner name here
+  default     = "akshaya"  # Set your default owner name here
 }
 variable "product_owner" {
   description = "The name of the portfolio owner"
   type        = string
-  default     = "Akshaya"
+  default     = "akshaya"
 }
 
