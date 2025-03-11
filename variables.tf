@@ -7,6 +7,7 @@ variable "aws_region" {
 variable "portfolio_name" {
   description = "The name of the service catalog portfolio"
   type        = string
+  default     = "S3 bucket1"
 }
 
 variable "policy_arn" {
@@ -18,11 +19,13 @@ variable "policy_arn" {
 variable "product_name" {
   description = "Name of the service catalog product"
   type        = string
+  default     = "Simple S3 bucket1"
 }
 
 variable "product_version" {
   description = "Version of the service catalog product"
   type        = string
+  default     = "v1"
 }
 variable "owner_name" {
   description = "The name of the portfolio owner"
