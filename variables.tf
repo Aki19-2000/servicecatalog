@@ -28,7 +28,4 @@ variable "owner_name" {
   default     = "Akshaya"  # Set your default owner name here
 }
 
-variable "template_file_path" {
-  description = "Path to the template file for the external product"
-  type        = string
-}
+
