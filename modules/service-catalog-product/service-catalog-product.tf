@@ -7,7 +7,7 @@ resource "aws_servicecatalog_product" "simple_s3_bucket_product" {
     name        = "v1"
     description = "Initial version"
     type        = "CLOUD_FORMATION_TEMPLATE"
-    template_url = "https://github.com/Aki19-2000/servicecatalog/blob/main/s3bucket.tar.gz"  # Use GitHub raw URL
+    template_url = "https://github.com/Aki19-2000/servicecatalog/raw/main/s3bucket.tar.gz"  # Correct raw URL
   }
 
   portfolio_id = var.portfolio_id
