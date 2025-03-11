@@ -52,6 +52,6 @@ resource "aws_iam_policy" "s3_resource_creation_and_artifact_access_policy" {
   })
 }
 
-output "iam_policy_arn" {
+output "policy_arn" {
   value = aws_iam_policy.s3_resource_creation_and_artifact_access_policy.arn
 }
