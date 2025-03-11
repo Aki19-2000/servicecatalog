@@ -26,6 +26,3 @@ module "service_catalog_product" {
   template_file_path  = "s3bucket.tar"
 }
 
-module "s3_bucket" {
-  source = "./modules/s3-bucket"
-}
