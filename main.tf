@@ -12,14 +12,14 @@ module "iam_role" {
 
 module "service_catalog_portfolio" {
   source         = "./modules/service-catalog-portfolio"
-  portfolio_name = "S3 bucket1"
-  product_owner  = "Akshaya"
+  portfolio_name = "s3bucket1"
+  product_owner  = "akshaya"
 }
 
 module "service_catalog_product" {
   source           = "./modules/service-catalog-product"
   portfolio_id     = module.service_catalog_portfolio.portfolio_id
-  product_name     = "Simple S3 bucket1"
-  owner_name       = "Akshaya"
+  product_name     = "simples3bucket1"
+  owner_name       = "akshaya"
   product_version  = "v1"
 }
