@@ -27,5 +27,9 @@ variable "owner_name" {
   type        = string
   default     = "Akshaya"  # Set your default owner name here
 }
-
+variable "product_owner" {
+  description = "The name of the portfolio owner"
+  type        = string
+  default     = "Akshaya"
+}
 
