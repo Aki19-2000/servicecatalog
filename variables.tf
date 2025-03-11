@@ -10,11 +10,6 @@ variable "portfolio_name" {
   default     = "S3 bucket1"
 }
 
-variable "policy_arn" {
-  description = "The ARN of the IAM policy to attach to the role"
-  type        = string
-  default     = "arn:aws:iam::510278866235:policy/S3ResourceCreationAndArtifactAccessPolicy1"  # Set your default policy ARN here
-}
 
 variable "product_name" {
   description = "Name of the service catalog product"
