@@ -12,6 +12,7 @@ variable "portfolio_name" {
 variable "policy_arn" {
   description = "The ARN of the IAM policy to attach to the role"
   type        = string
+  default     = "arn:aws:iam::510278866235:policy/S3ResourceCreationAndArtifactAccessPolicy1"  # Set your default policy ARN here
 }
 
 variable "product_name" {
