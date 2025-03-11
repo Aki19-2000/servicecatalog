@@ -9,11 +9,6 @@ variable "portfolio_name" {
   type        = string
 }
 
-variable "owner_name" {
-  description = "The name of the portfolio owner"
-  type        = string
-}
-
 variable "policy_arn" {
   description = "The ARN of the IAM policy to attach to the role"
   type        = string
@@ -27,6 +22,11 @@ variable "product_name" {
 variable "product_version" {
   description = "Version of the service catalog product"
   type        = string
+}
+variable "owner_name" {
+  description = "The name of the portfolio owner"
+  type        = string
+  default     = "Akshaya"  # Set your default owner name here
 }
 
 variable "template_file_path" {
