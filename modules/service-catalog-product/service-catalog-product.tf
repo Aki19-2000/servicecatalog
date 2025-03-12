@@ -1,6 +1,6 @@
 resource "aws_servicecatalog_product" "simple_s3_bucket_product" {
-  name          = var.product_name
-  owner         = var.product_owner
+  name          = "simples3bucket1"
+  owner         = "akshaya"
   description   = "A simple S3 bucket product"
   distributor   = "example-distributor"
   support_description = "Example support description"
