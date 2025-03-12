@@ -18,8 +18,6 @@ module "service_catalog_portfolio" {
 
 module "service_catalog_product" {
   source           = "./modules/service-catalog-product"
-  portfolio_id     = module.service_catalog_portfolio.portfolio_id
   product_name     = "simples3bucket1"
   owner_name       = "akshaya"
-  product_version  = "v1"
 }
