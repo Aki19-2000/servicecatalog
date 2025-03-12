@@ -16,6 +16,4 @@ module "service_catalog_portfolio" {
 
 module "service_catalog_product" {
   source           = "./modules/service-catalog-product"
-  product_name     = "simples3bucket1"
-  owner_name       = "akshaya"
 }
