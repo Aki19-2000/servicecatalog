@@ -1,3 +1,8 @@
+Parameters:
+  BucketName:
+    Type: String
+    Description: "The name of the S3 bucket"
+
 Resources:
   S3Bucket:
     Type: "AWS::S3::Bucket"
