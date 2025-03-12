@@ -16,6 +16,3 @@ resource "aws_servicecatalog_product" "example" {
   }
 }
   
-output "product_id" {
-  value = aws_servicecatalog_product.simple_s3_bucket_product.id
-}
