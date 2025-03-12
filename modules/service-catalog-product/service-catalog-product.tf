@@ -11,7 +11,7 @@ resource "aws_servicecatalog_product" "example" {
   provisioning_artifact_parameters {
     name           = "v1"
     description    = "Version 1"
-    template_url   = "${path.module}/s3bucket.tar"
+    template_url   = file("${path.module}/template.yaml")
     type           = "CLOUD_FORMATION_TEMPLATE"
   }
 }
