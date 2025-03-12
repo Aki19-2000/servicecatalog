@@ -11,8 +11,7 @@ resource "aws_servicecatalog_product" "example" {
   provisioning_artifact_parameters {
     name           = "v1"
     description    = "Version 1"
-    template_url   = file("${path.module}/template.yaml")
+    template_body  = file("${path.module}/template.yaml")
     type           = "CLOUD_FORMATION_TEMPLATE"
   }
 }
-  
