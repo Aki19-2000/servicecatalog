@@ -1,0 +1,9 @@
+Resources:
+  S3Bucket:
+    Type: "AWS::S3::Bucket"
+    Properties:
+      BucketName: !Ref BucketName
+
+Outputs:
+  RegionalDomainName:
+    Value: !GetAtt S3Bucket.RegionalDomainName
