@@ -11,7 +11,7 @@ resource "aws_servicecatalog_product" "example" {
   provisioning_artifact_parameters {
     name           = "v1"
     description    = "Version 1"
-    template_url   = "https://github.com/Aki19-2000/servicecatalog/raw/main/s3bucket.tar.gz"
+    template_url   = "https://github.com/Aki19-2000/servicecatalog/raw/main/s3bucket.tar"
     type           = "CLOUD_FORMATION_TEMPLATE"
   }
 }
